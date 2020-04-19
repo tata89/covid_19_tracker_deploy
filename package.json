@@ -2,7 +2,7 @@
   "name": "new-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tata89.github.io/covid_19_tracker_app",
+  "homepage": "http://tata89.github.io/covid_19_tracker_deploy",
   "dependencies": {
     "@material-ui/core": "^4.9.10",
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,7 +12,6 @@
     "bootstrap": "^4.1.1",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
