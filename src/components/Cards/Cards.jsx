@@ -7,9 +7,6 @@ import styles from "./Cards.module.css";
 const Cardsmatrics = ({
   data: { confirmed, recovered, deaths, lastUpdate },
 }) => {
-  // console.log(
-  //   `${confirmed.value}this is data coming from the api to app js to cards components`
-  // );
   if (!confirmed) {
     return "Loading ...";
   }

@@ -18,7 +18,9 @@ export const fetchdata = async (country) => {
     };
     // console.log(modifedData);
     return modifedData;
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 };
 export const fetchdatadaily = async () => {
   try {
@@ -29,7 +31,9 @@ export const fetchdatadaily = async () => {
       date: dailydata.reportDate,
     }));
     return modifieddata;
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 };
 export const fetchcountrydata = async () => {
   try {
